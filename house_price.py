@@ -1,7 +1,7 @@
 import pandas as pd
 from tqdm import tqdm
 
-# load data
+# load data 1
 train = pd.read_csv('../input/ames-housing-dataset/AmesHousing.csv')
 train.drop(['PID'], axis=1, inplace=True)
 
